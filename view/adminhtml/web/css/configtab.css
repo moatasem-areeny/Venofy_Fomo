@@ -1,0 +1,16 @@
+.admin__page-nav.venofy-config-tab-class ._collapsible {
+    padding: 5px;
+}
+
+.admin__page-nav.venofy-config-tab-class ._collapsible:before {
+    content: "";
+    background: url(../images/venofy-icon.svg) no-repeat scroll 0 0;
+    background-size: contain;
+    width: 100%;
+    height: 80px;
+    display: inline-block;
+    vertical-align: bottom;
+}
+.admin__page-nav.venofy-config-tab-class ._collapsible strong {
+    display: none;
+}

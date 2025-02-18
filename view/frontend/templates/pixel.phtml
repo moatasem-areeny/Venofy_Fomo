@@ -1,0 +1,4 @@
+<?php
+if ($block->isPixelEnabled() && $block->getPixel()):?>
+        <?= /* Escape the output for security */ $block->getPixel() ?>
+<?php endif; ?>
